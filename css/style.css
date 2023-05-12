@@ -1,0 +1,300 @@
+/*CONFIGURAÇÃO PADRÃO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+/*FIM CONFIGURAÇÃO PADRÃO*/
+
+/*HEADER*/
+header .center {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px 0;
+    align-items: center;
+    background-color: #fff;
+}
+
+.center img {
+    width: 100%;
+    max-width: 80px;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-titulo .titulo h1 {
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.logo-titulo .titulo p {
+    font-size: 16px;
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.center nav ul {
+    display: flex; 
+}
+
+.center nav li {
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.center a {
+    text-decoration:  none;
+    font-size: 18px;
+    color: #233032;
+    font-weight: 600;
+}
+
+.logo-titulo .titulo {
+    margin-left: 15px;
+}
+/*FIM HEADER*/
+
+/*SESSÃO 1*/
+section.sessao_1 {
+    background-color: #2f86d6;
+    padding: 100px 0;
+    
+}
+
+.sessao_1 .center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.sessao_1 .center .texto-sessao_1 p {
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.sessao_1 .center .texto-sessao_1 h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.sessao_1 .center img {
+    width: 100%;
+    max-width: 500px;
+}
+/*FIM SESSÃO 1*/
+
+
+/*SESSÃO 2*/
+section.sessao_2 {
+    padding: 62px;
+    background-color: #233032;
+}
+
+.sessao_2 .center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sessao_2 .center .texto-sessao_2 h2  {
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.sessao_2 .center .texto-sessao_2 p  {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sessao_2 .center a {
+    background-color: #2f86d6;
+    font-size: 16px;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.sessao_2 .center a img {
+    width: 100%;
+    max-width: 24px;
+}
+/*FIM SESSÃO 2*/
+
+
+/*SESSÃO 3*/
+section.sessao_3 .center  {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.sessao_3 .center > h2 {
+    font-size: 32px;
+    color: #000000;
+    padding-bottom: 70px;
+}
+
+.sessao_3 .center .informacoes {
+    display: flex;
+    justify-content: center;
+}
+
+.sessao_3 .center .informacoes .img-informacoes {
+    margin-left: 10px;
+}
+
+.sessao_3 .center .informacoes .img-informacoes h2 {
+    font-size: 18px;
+    color: #000000;
+    padding: 20px 0;
+}
+
+.sessao_3 .center .informacoes .img-informacoes p {
+    font-size: 16px;
+    color: #000000;
+}
+/*FIM SESSÃO 3*/
+
+/*SESSÃO 4*/
+
+section.sessao_4 {
+    padding: 100px 0;
+    background-color: #f6f6f6;
+}
+
+.sessao_4 .center > h2{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.sessao_4 .center .tabela table {
+    margin: 0 auto;
+    padding-top: 50px;
+    box-shadow: 1px 1px 20px 10px #2f86d6;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.sessao_4 .center .tabela table thead tr {
+    background-color: white;
+    height: 200px;
+    text-align: center;
+}
+
+.sessao_4 .center .tabela table thead tr td {
+    width: 280px;
+}
+
+.sessao_4 .center .tabela table thead tr td h2 {
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.sessao_4 .center .tabela table thead tr td p {
+    font-size: 13px;
+    color: #a89f9f;
+    padding: 20px 0;
+
+}
+
+.sessao_4 .center .tabela table tbody tr {
+    height: 50px;
+    text-align: center;
+}
+
+.sessao_4 .center .tabela table tbody .linha-impar {
+    background-color: #f6f6f6;
+}
+
+.sessao_4 .center .tabela table tbody .linha-par {
+    background-color: #fffff9;
+}
+/*FIM SESSÃO 4*/
+
+/*SESS]AO 5*/
+section.sessao_5 {
+    padding: 40px;
+    background-color: #2f86d6;
+}
+
+.sessao_5 .center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sessao_5 .center h2  {
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.sessao_5 .center a {
+    background-color: #233032;
+    font-size: 16px;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.sessao_5 .center a img {
+    width: 100%;
+    max-width: 24px;
+}
+/*FIM SESSÃO 5*/
+
+/*SESSÃO 6*/
+
+section.sessao_6 .center {
+    padding: 100px 0;
+}
+
+.sessao_6 .center .logo-titulo1 {
+    margin: 0 auto;
+    width: 35%;
+    display: flex;
+}
+
+.sessao_6 .center .logo-titulo1 .titulo1 {
+    margin-left: 20px;
+}
+
+.sessao_6 .center .contato {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.sessao_6 .center .contato p {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+/*FIM SESSAO_6*/
+
+/*FOOTER*/
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f6f4f4;
+    font-weight: bold;
+}
+/*FIM FOOTER*/
